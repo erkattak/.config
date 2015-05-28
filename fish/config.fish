@@ -74,9 +74,8 @@ function useio
   echo "Using io.js"
 end
 
-# Quick project switching using "c" with tab-completion
-set -x CDPATH /Users/brkattk/Code
-function c -d "Activate virtual environment in $WORKON_HOME"
-  cd /Users/brkattk/Code/$argv[1]
+set -x CDPATH ~/Code
+function c -d "Quick switching to projects in ~/Code"
+  cd ~/Code/$argv[1]
 end
-complete -c c -a "(__fish_complete_cd)"
+complete -c c -a "(__fish_complete_cd)" -d "Tab-completion for quick project switching"
