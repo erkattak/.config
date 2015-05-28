@@ -67,7 +67,6 @@ function usenode
   brew link node
   echo "Using Node.js"
 end
-
 # iojs
 function useio
   brew unlink node
@@ -75,6 +74,7 @@ function useio
   echo "Using io.js"
 end
 
+# Quick project switching using "c" with tab-completion
 set -x CDPATH /Users/brkattk/Code
 function c -d "Activate virtual environment in $WORKON_HOME"
   cd /Users/brkattk/Code/$argv[1]
