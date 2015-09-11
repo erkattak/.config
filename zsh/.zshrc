@@ -58,6 +58,8 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 export PATH="/Users/brkattk/Library/Python/2.7/bin:$PATH"
 
+export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
+
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
