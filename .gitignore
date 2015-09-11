@@ -4,3 +4,4 @@ fishd.*
 configstore/
 direnv/allow/
 hub
+robomongo/robomongo.json
