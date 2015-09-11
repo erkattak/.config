@@ -113,7 +113,7 @@ alias uz='tar xzf' # uz input.tgz
 
 # IP
 alias ip='ifconfig en0 | grep inet\ | cut -d" " -f2'
-alias exip='http icanhazip.com --body'
+alias exip="http icanhazip.com --body | sed ':a;N;$!ba;s/\n/ /g'"
 
 # vagrant
 alias v="vagrant"
