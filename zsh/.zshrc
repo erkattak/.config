@@ -53,7 +53,7 @@ plugins=(git httpie brew web-search)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/bin:/usr/bin:$HOME/.config/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 export PATH="/Users/brkattk/Library/Python/2.7/bin:$PATH"
