@@ -58,7 +58,8 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 export PATH="/Users/brkattk/Library/Python/2.7/bin:$PATH"
 
-export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$PATH"
 
 source $ZSH/oh-my-zsh.sh
 
