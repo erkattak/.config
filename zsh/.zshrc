@@ -89,7 +89,7 @@ source $ZSH/oh-my-zsh.sh
 
 source /Users/brkattk/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
 
-export VISUAL=atom
+export VISUAL=subl
 export EDITOR=vim
 export NODE_PATH=/usr/local/lib/node_modules
 
